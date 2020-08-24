@@ -1,6 +1,6 @@
 # shopify-frontend-clone
 
-This is part of the technical interview for backend developer candidates for Coop Commerce.
+This is part of the technical interview for frontend developer candidates for Coop Commerce.
 
 ## Setup
 
@@ -33,7 +33,8 @@ Please write a basic shopify clone:
 7. Use your best judgement on including frontend validation where needed.
 8. Use your favorite UI toolkit (Semantic UI, Bootstrap, Material, etc).
 9. Use `create-react-app` and add a folder called `client` to the root with its contents.
-9. The layout is up to you. The only requirement is that a search bar be always present at top (like amazon). Using it should take the user to product list page.
+10. The layout is up to you. The only requirement is that a search bar be always present at top (like amazon). Using it should take the user to product list page.
+11. Do not edit any backend code.
 
 ## Test cases
 
