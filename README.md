@@ -11,7 +11,7 @@ This is part of the technical interview for backend developer candidates for Coo
 5. Run migrations: `python manage.py migrate`
 6. Run the server: `python manage.py runserver`
 7. Run `curl 'http://127.0.0.1:8000/api/ping/' | python -mjson.tool`. If it works, you should see `{
-    "status": "pong"
+    "status": "pong"`
 8. Create a test user: `python manage.py createsuperuser --username test --email test@test.com`
 9. Create a token for this user: `python manage.py drf_create_token test`. Write this down for use below.
 10. Seed your database with some categories e.g.: `curl -H 'Authorization: Token <token>' -H 'Content-Type: application/json' -X POST -d '{"name": "Toys"}' 'http://127.0.0.1:8000/api/categories/'`
