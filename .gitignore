@@ -1,0 +1,13 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# Local env
+.env
+
+# Compiled stuff
+static
+*.pyc
+__pycache__
+.pytest_cache
+*.swp
+venv/
+db.sqlite3
