@@ -26,7 +26,7 @@ Please write a basic shopify clone:
 
 1. Create a login page that takes the credentials set above.
 2. Create a product list page. One should be able to filter by category, search by name, and sort by price. Please us 'AND' logic here when multiple filters are applied. Use this endpoint: `curl -H 'Authorization: Token <token>' 'http://127.0.0.1:8000/api/products/'`
-3. Create product creation page. Use this endpoint: `curl -H 'Authorization: Token <token>' -H 'Content-Type: application/json' -X POST -d '{"name": "Shampoo", "price": 5.99, "category": "1"}' 'http://127.0.0.1:8000/api/products/'`
+3. Create a product creation page. Use this endpoint: `curl -H 'Authorization: Token <token>' -H 'Content-Type: application/json' -X POST -d '{"name": "Shampoo", "price": 5.99, "category": "1"}' 'http://127.0.0.1:8000/api/products/'`
 4. There should be a product detail page. Use this endpoint: `curl -H 'Authorization: Token <token>' -H 'Content-Type: application/json' 'http://127.0.0.1:8000/api/products/<product id>/'`
 5. Use functional components as much as possible. 
 6. Use modern, ES6 syntax.
